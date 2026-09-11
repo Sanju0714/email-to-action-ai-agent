@@ -1,0 +1,32 @@
+[
+    {
+        "id": "EMAIL001",
+        "sender": "vendor@example.com",
+        "subject": "Invoice INV-1023 Submission",
+        "body": "Hello, please find our invoice INV-1023 for the recent order. Kindly process the payment."
+    },
+    {
+        "id": "EMAIL002",
+        "sender": "customer@example.com",
+        "subject": "Payment Status for INV-1008",
+        "body": "Could you please tell us when payment for invoice INV-1008 will be processed?"
+    },
+    {
+        "id": "EMAIL003",
+        "sender": "client@example.com",
+        "subject": "Dispute Regarding Invoice INV-1045",
+        "body": "We believe the amount charged on invoice INV-1045 is incorrect. Please review this transaction."
+    },
+    {
+        "id": "EMAIL004",
+        "sender": "unknown@example.com",
+        "subject": "You won a prize!",
+        "body": "Congratulations! You have won a cash prize. Click the link below to claim your reward."
+    },
+    {
+        "id": "EMAIL005",
+        "sender": "customer2@example.com",
+        "subject": "Issue with Recent Transaction",
+        "body": "There seems to be an issue with the amount on our recent transaction. Please check."
+    }
+]

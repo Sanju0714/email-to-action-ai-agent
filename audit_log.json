@@ -1,0 +1,178 @@
+[
+    {
+        "timestamp": "2026-08-22T11:12:52.918225",
+        "email_id": "EMAIL001",
+        "sender": "vendor@example.com",
+        "subject": "Invoice INV-1023 Submission",
+        "intent": "Invoice Submission",
+        "confidence": 95,
+        "reason": "The email contains an invoice submission request.",
+        "action": "Invoice Logged",
+        "action_details": "Invoice from vendor@example.com has been logged for processing."
+    },
+    {
+        "timestamp": "2026-08-22T11:14:16.154408",
+        "email_id": "EMAIL001",
+        "sender": "vendor@example.com",
+        "subject": "Invoice INV-1023 Submission",
+        "intent": "Invoice Submission",
+        "confidence": 95,
+        "reason": "The email contains an invoice submission request.",
+        "action": "Invoice Logged",
+        "action_details": "Invoice from vendor@example.com has been logged for processing."
+    },
+    {
+        "timestamp": "2026-08-22T11:14:16.652000",
+        "email_id": "EMAIL002",
+        "sender": "customer@example.com",
+        "subject": "Payment Status for INV-1008",
+        "intent": "Payment Query",
+        "confidence": 95,
+        "reason": "The email asks when payment for a specific invoice will be processed, which is a payment status inquiry.",
+        "action": "Draft Reply",
+        "action_details": "A payment-status reply has been prepared for human review."
+    },
+    {
+        "timestamp": "2026-08-22T11:14:17.163413",
+        "email_id": "EMAIL003",
+        "sender": "client@example.com",
+        "subject": "Dispute Regarding Invoice INV-1045",
+        "intent": "Dispute",
+        "confidence": 95,
+        "reason": "The email states that the amount charged on invoice INV-1045 is incorrect and requests a review, indicating a dispute.",
+        "action": "Create Follow-up Task",
+        "action_details": "A follow-up task has been created for the finance team to review the dispute."
+    },
+    {
+        "timestamp": "2026-08-22T11:14:17.625782",
+        "email_id": "EMAIL004",
+        "sender": "unknown@example.com",
+        "subject": "You won a prize!",
+        "intent": "Spam",
+        "confidence": 95,
+        "reason": "The email is a typical promotional scam offering a cash prize with a link to claim it.",
+        "action": "Mark as Spam",
+        "action_details": "The email has been marked as spam and requires no further processing."
+    },
+    {
+        "timestamp": "2026-08-22T11:14:17.983369",
+        "email_id": "EMAIL005",
+        "sender": "customer2@example.com",
+        "subject": "Issue with Recent Transaction",
+        "intent": "Dispute",
+        "confidence": 90,
+        "reason": "The email states there is an issue with the amount on a recent transaction, indicating a challenge or dispute over the amount.",
+        "action": "Create Follow-up Task",
+        "action_details": "A follow-up task has been created for the finance team to review the dispute."
+    },
+    {
+        "timestamp": "2026-08-22T11:16:12.253568",
+        "email_id": "EMAIL001",
+        "sender": "vendor@example.com",
+        "subject": "Invoice INV-1023 Submission",
+        "intent": "Invoice Submission",
+        "confidence": 95,
+        "reason": "The email contains an invoice submission request.",
+        "action": "Invoice Logged",
+        "action_details": "Invoice from vendor@example.com has been logged for processing."
+    },
+    {
+        "timestamp": "2026-08-22T11:16:13.031291",
+        "email_id": "EMAIL002",
+        "sender": "customer@example.com",
+        "subject": "Payment Status for INV-1008",
+        "intent": "Payment Query",
+        "confidence": 95,
+        "reason": "The email asks about the timing of payment for a specific invoice.",
+        "action": "Draft Reply",
+        "action_details": "A payment-status reply has been prepared for human review."
+    },
+    {
+        "timestamp": "2026-08-22T11:16:13.519325",
+        "email_id": "EMAIL003",
+        "sender": "client@example.com",
+        "subject": "Dispute Regarding Invoice INV-1045",
+        "intent": "Dispute",
+        "confidence": 95,
+        "reason": "The email explicitly states that the amount charged on invoice INV-1045 is incorrect and requests a review, which is a clear dispute.",
+        "action": "Create Follow-up Task",
+        "action_details": "A follow-up task has been created for the finance team to review the dispute."
+    },
+    {
+        "timestamp": "2026-08-22T11:16:14.003961",
+        "email_id": "EMAIL004",
+        "sender": "unknown@example.com",
+        "subject": "You won a prize!",
+        "intent": "Spam",
+        "confidence": 99,
+        "reason": "The email is a promotional message offering a cash prize with a link, typical of spam.",
+        "action": "Mark as Spam",
+        "action_details": "The email has been marked as spam and requires no further processing."
+    },
+    {
+        "timestamp": "2026-08-22T11:16:14.926803",
+        "email_id": "EMAIL005",
+        "sender": "customer2@example.com",
+        "subject": "Issue with Recent Transaction",
+        "intent": "Ambiguous",
+        "confidence": 90,
+        "reason": "The email mentions an issue with the amount but does not explicitly dispute the charge or provide details, fitting the ambiguous category.",
+        "action": "Human Review",
+        "action_details": "The email requires human review because the intent could not be determined confidently."
+    },
+    {
+        "timestamp": "2026-08-22T11:23:02.833346",
+        "email_id": "EMAIL001",
+        "sender": "vendor@example.com",
+        "subject": "Invoice INV-1023 Submission",
+        "intent": "Invoice Submission",
+        "confidence": 95,
+        "reason": "The email contains an invoice submission request.",
+        "action": "Invoice Logged",
+        "action_details": "Invoice from vendor@example.com has been logged for processing."
+    },
+    {
+        "timestamp": "2026-08-22T11:26:41.531786",
+        "email_id": "EMAIL005",
+        "sender": "customer2@example.com",
+        "subject": "Issue with Recent Transaction",
+        "intent": "Ambiguous",
+        "confidence": 90,
+        "reason": "The email mentions an issue with the transaction amount but does not explicitly dispute the charge or provide details, fitting the ambiguous category.",
+        "action": "Human Review",
+        "action_details": "The email requires human review because the intent could not be determined confidently."
+    },
+    {
+        "timestamp": "2026-08-22T11:28:34.584699",
+        "email_id": "EMAIL002",
+        "sender": "customer@example.com",
+        "subject": "Payment Status for INV-1008",
+        "intent": "Payment Query",
+        "confidence": 95,
+        "reason": "The email asks about the timing of payment for a specific invoice.",
+        "action": "Draft Reply",
+        "action_details": "A payment-status reply has been prepared for human review."
+    },
+    {
+        "timestamp": "2026-08-22T11:29:09.879381",
+        "email_id": "EMAIL003",
+        "sender": "client@example.com",
+        "subject": "Dispute Regarding Invoice INV-1045",
+        "intent": "Dispute",
+        "confidence": 95,
+        "reason": "The email explicitly states that the amount charged on invoice INV-1045 is incorrect and requests a review, which is a clear dispute.",
+        "action": "Create Follow-up Task",
+        "action_details": "A follow-up task has been created for the finance team to review the dispute."
+    },
+    {
+        "timestamp": "2026-08-22T11:29:25.669704",
+        "email_id": "EMAIL004",
+        "sender": "unknown@example.com",
+        "subject": "You won a prize!",
+        "intent": "Spam",
+        "confidence": 99,
+        "reason": "The email is a typical promotional scam offering a cash prize with a link to claim it.",
+        "action": "Mark as Spam",
+        "action_details": "The email has been marked as spam and requires no further processing."
+    }
+]
